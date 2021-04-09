@@ -300,32 +300,23 @@ var Resume = function Resume() {
     className: "uk-padding-small uk-padding-remove-vertical resume-title uk-text-bold"
   }, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "uk-padding-small"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "uk-link-text",
-    target: "_blank",
-    href: _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.telegram
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faTelegram"]
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "uk-link-text uk-margin-small-left",
-    target: "_blank",
-    href: _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.vk
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faVk"]
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "uk-link-text uk-margin-small-left",
-    target: "_blank",
-    href: _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.github
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faGithub"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "uk-link-text uk-display-block uk-text-truncate",
-    href: "mailto:".concat(_src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.mail)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faEnvelope"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "uk-margin-small-left uk-text-small"
-  }, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.mail))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, function () {
+    var contactsWithIcons = [["vk", _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.vk, "@klonwar", _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faVk"]], ["telegram", _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.telegram, "@klonwar", _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faTelegram"]], ["github", _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.github, "klonwar", _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faGithub"]], ["stackoverflow", _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.stackoverflow, "mr-klonwar", _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__["faStackOverflow"]], ["mail", _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.mail, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.contacts.info.mail, _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faEnvelope"]]];
+    return contactsWithIcons.map(function (item) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        key: item[0],
+        className: "uk-link-text uk-flex uk-flex-middle uk-text-truncate",
+        href: item[0] === "mail" ? "mailto:".concat(item[1]) : item[1]
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "resume-contacts__icon"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+        className: "uk-text-large",
+        icon: item[item.length - 1]
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "uk-margin-small-left uk-text-small"
+      }, item[2]));
+    });
+  }()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: "uk-padding-small uk-padding-remove-vertical resume-title uk-text-bold"
   }, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.languages.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "uk-padding-small"
@@ -365,80 +356,47 @@ var Resume = function Resume() {
       className: "uk-text-small uk-text-truncate uk-text-right"
     }, info.note))));
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "uk-width-2-3 uk-padding"
+    className: "uk-width-2-3 uk-padding uk-padding-remove-bottom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "\u0414\u043C\u0438\u0442\u0440\u0438\u0439 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447 \u0410\u0440\u0430\u043F\u043E\u0432"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "uk-margin-remove"
-  }, "\u0412\u0435\u0431-\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+  }, "\u0412\u0435\u0431-\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
     icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faMapMarkerAlt"]
-  }), " ", "\u0412\u043E\u0440\u043E\u043D\u0435\u0436")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "uk-flex resume-edge"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-title uk-text-bold"
-  }, "\u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: "uk-width-expand resume-edge__line"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-edge__icon"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faSuitcase"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.experience.map(function (item, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block",
-      key: "".concat(item.name, "-").concat(index),
-      "uk-grid": ""
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "uk-width-1-5"
-    }, item.time), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "uk-width-4-5"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block__title uk-text-bold"
-    }, item.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: item.link
-    }, item.link), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, item.description)));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "uk-flex resume-edge"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-title uk-text-bold"
-  }, "\u041E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: "uk-width-expand resume-edge__line"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-edge__icon"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faGraduationCap"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.education.map(function (item, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block",
-      key: "".concat(item.name, "-").concat(index),
-      "uk-grid": ""
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "uk-width-1-5"
-    }, item.time), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "uk-width-4-5"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block__title uk-text-bold"
-    }, item.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.subtitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, item.description)));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "uk-flex resume-edge"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-title uk-text-bold"
-  }, "\u041A\u0443\u0440\u0441\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: "uk-width-expand resume-edge__line"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "resume-edge__icon"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faFile"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, _src_config_json__WEBPACK_IMPORTED_MODULE_4__.courses.map(function (item, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block",
-      key: "".concat(item.name, "-").concat(index),
-      "uk-grid": ""
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      className: "uk-width-1-5"
-    }, item.time), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "uk-width-4-5"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "resume-info-block__title uk-text-bold"
-    }, item.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.subtitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, item.description)));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), " ", "\u0412\u043E\u0440\u043E\u043D\u0435\u0436"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faUserClock"]
+  }), " ", "19 \u043B\u0435\u0442")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faSearch"]
+  }), " ", "\u0418\u0449\u0443 \u0440\u0430\u0431\u043E\u0442\u0443 \u043D\u0430 \u043F\u043E\u043B\u0441\u0442\u0430\u0432\u043A\u0438, Junior"))), function () {
+    var infoBlocksWithIcons = [[_src_config_json__WEBPACK_IMPORTED_MODULE_4__.infoBlocks[0], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faSuitcase"]], [_src_config_json__WEBPACK_IMPORTED_MODULE_4__.infoBlocks[1], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faGraduationCap"]], [_src_config_json__WEBPACK_IMPORTED_MODULE_4__.infoBlocks[2], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faFileAlt"]]];
+    return infoBlocksWithIcons.map(function (item) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: item[0].title
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "uk-flex resume-edge"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "resume-title uk-text-bold"
+      }, item[0].title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+        className: "uk-width-expand resume-edge__line"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "resume-edge__icon"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
+        icon: item[1]
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, item[0].blocks.map(function (infoBlockItem, index) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "resume-info-block",
+          key: "".concat(infoBlockItem.name, "-").concat(index),
+          "uk-grid": ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          className: "uk-width-1-5"
+        }, infoBlockItem.time), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "uk-width-4-5"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "resume-info-block__title uk-text-bold"
+        }, infoBlockItem.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, infoBlockItem.subtitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          href: infoBlockItem.link
+        }, infoBlockItem.link), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, infoBlockItem.description)));
+      })));
+    });
+  }(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "uk-flex resume-edge"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "resume-title uk-text-bold"
@@ -461,10 +419,10 @@ var Resume = function Resume() {
 /*!*********************!*\
   !*** ./config.json ***!
   \*********************/
-/*! exports provided: contacts, languages, skills, experience, education, courses, aboutMe, default */
+/*! exports provided: contacts, languages, skills, infoBlocks, aboutMe, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"contacts\":{\"title\":\"Контакты\",\"info\":{\"vk\":\"https://vk.com/klonwar\",\"telegram\":\"https://t.me/klonwar\",\"github\":\"https://github.com/klonwar\",\"mail\":\"dima.arapov@gmail.com\"}},\"languages\":{\"title\":\"Языки\",\"info\":[{\"name\":\"Английский\",\"level\":3,\"max\":6,\"note\":\"B1 - Средний\"}]},\"skills\":{\"title\":\"Навыки\",\"info\":[{\"name\":\"HTML, CSS, LESS, SASS, Адаптивная верстка\",\"level\":3,\"max\":5,\"note\":\"Средний\"},{\"name\":\"JS, TS, React + Redux\",\"level\":4,\"max\":5,\"note\":\"Опытный\"},{\"name\":\"Node.JS, Express, Puppeteer\",\"level\":3,\"max\":5,\"note\":\"Средний\"},{\"name\":\"Webpack, Babel, Jest, ESLint\",\"level\":2,\"max\":5,\"note\":\"Базовый\"},{\"name\":\"Linux, SQL, Git\",\"level\":2,\"max\":5,\"note\":\"Базовый\"}]},\"experience\":[{\"name\":\"MathGym\",\"time\":\"2017 - 2019\",\"link\":\"https://mathgym.ru/\",\"description\":\"Первый мой проект, который делал еще в школьное время. В процессе создания использовал язык PHP и фреймворк Yii2. Для фронтенда - обычный JS и JQuery. Разработал мобильное приложение под андроид на Java\"},{\"name\":\"Get To Post\",\"time\":\"c 2020\",\"link\":\"https://get2p.herokuapp.com/\",\"description\":\"Текущий проект, на котором я оттачиваю навыки верстки, JS, TS, React и Redux. Это инструмент, который позволяет протестировать API. С помощью него можно совершать различные запросы на указанный URL\"}],\"education\":[{\"name\":\"Воронежский Государственный Университет\",\"time\":\"2023\",\"subtitle\":\"Неполное высшее\",\"description\":\"Факультет Компьютерных Наук, Программная Инженерия\"}],\"courses\":[{\"name\":\"DSR\",\"time\":\"2020\",\"description\":\"JS Bootcamp 2020: Deep Dive Into React\"},{\"name\":\"DataArt\",\"time\":\"2021\",\"description\":\"DataArt JavaScript Academy 2021\"}],\"aboutMe\":\"Опыта коммерческой разработки нет ввиду учебы. Умею самостоятельно обучаться. Периодически участвую в CTF в составе команды ONO. Люблю читать книги\"}");
+module.exports = JSON.parse("{\"contacts\":{\"title\":\"Контакты\",\"info\":{\"vk\":\"https://vk.com/klonwar\",\"telegram\":\"https://t.me/klonwar\",\"github\":\"https://github.com/klonwar\",\"mail\":\"dima.arapov@gmail.com\",\"stackoverflow\":\"https://ru.stackoverflow.com/users/182390/mr-klonwar\"}},\"languages\":{\"title\":\"Языки\",\"info\":[{\"name\":\"Английский\",\"level\":3,\"max\":6,\"note\":\"B1 - Средний\"}]},\"skills\":{\"title\":\"Навыки\",\"info\":[{\"name\":\"HTML, CSS, LESS, SASS, Адаптивная верстка\",\"level\":3,\"max\":5,\"note\":\"Средний\"},{\"name\":\"JS, TS, React + Redux\",\"level\":4,\"max\":5,\"note\":\"Опытный\"},{\"name\":\"Node.JS, Express, Puppeteer\",\"level\":3,\"max\":5,\"note\":\"Средний\"},{\"name\":\"Webpack, Babel, Jest, ESLint\",\"level\":2,\"max\":5,\"note\":\"Базовый\"},{\"name\":\"Linux, SQL, Git\",\"level\":2,\"max\":5,\"note\":\"Базовый\"}]},\"infoBlocks\":[{\"title\":\"Проекты\",\"blocks\":[{\"name\":\"MathGym\",\"time\":\"2017 - 2019\",\"link\":\"https://mathgym.ru/\",\"description\":\"Сервис для школьников, помогающий оттачивать математические навыки. Делал, когда сам был школьником. PHP, Yii2, JS и JQuery. Разработал мобильное приложение под андроид на Java\"},{\"name\":\"Мониторы сайтов\",\"time\":\"2019 - 2020\",\"description\":\"Парсеры на NodeJS, которые оповещают в Discord о появлении новых товаров и изменении их цены. Использовал Discord.js\"},{\"name\":\"Get To Post\",\"time\":\"c 2020\",\"link\":\"https://get2p.herokuapp.com/\",\"description\":\"Это инструмент, который позволяет протестировать API. Используются JS, TS, React и Redux\"}]},{\"title\":\"Образование\",\"blocks\":[{\"name\":\"Воронежский Государственный Университет\",\"time\":\"2023\",\"subtitle\":\"Неполное высшее\",\"description\":\"ФКН, Программная Инженерия\"}]},{\"title\":\"Курсы\",\"blocks\":[{\"name\":\"DSR\",\"time\":\"2020\",\"description\":\"JS Bootcamp 2020: Deep Dive Into React\"},{\"name\":\"DataArt\",\"time\":\"2021\",\"description\":\"DataArt JavaScript Academy 2021\"}]}],\"aboutMe\":\"Опыта коммерческой разработки нет ввиду учебы. Умею самостоятельно обучаться. Периодически участвую в CTF (соревнованиях по компьютерной безопасности) в составе команды ONO. Люблю читать книги\"}");
 
 /***/ }),
 

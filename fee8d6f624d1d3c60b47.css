@@ -12432,6 +12432,9 @@ iframe.uk-cover {
   height: 100vh;
   width: 100vw;
 }
+.resume-contacts__icon {
+  width: 21px;
+}
 .resume-title {
   text-transform: uppercase;
   font-weight: bold;
@@ -12471,7 +12474,7 @@ iframe.uk-cover {
   color: #3949AB;
   align-items: center;
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .resume-edge__line {
   margin: 0 10px;
