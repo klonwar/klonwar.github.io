@@ -12417,6 +12417,11 @@ iframe.uk-cover {
 * {
   box-sizing: border-box;
 }
+@media (max-width: 640px) {
+  .resume-right {
+    margin-left: 30px;
+  }
+}
 @media print {
   .uk-progress::-webkit-progress-bar {
     box-sizing: border-box;
@@ -12439,9 +12444,9 @@ iframe.uk-cover {
     width: 66.667%;
   }
 }
-@media (max-width: 959px) {
-  .resume-right {
-    margin-left: 30px;
+@media print and (max-width: 640px) {
+  .resume-left {
+    margin-left: 0 !important;
   }
 }
 #root {
