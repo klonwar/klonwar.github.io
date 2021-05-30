@@ -12418,14 +12418,30 @@ iframe.uk-cover {
   box-sizing: border-box;
 }
 @media print {
+  .uk-progress::-webkit-progress-bar {
+    box-sizing: border-box;
+    border: 1px solid #333;
+  }
   .uk-progress::-webkit-progress-value {
-    background-color: #333 !important;
+    box-sizing: border-box;
+    border: 10px solid #333;
   }
   * {
     border-color: #333 !important;
   }
   .resume-left .resume-title {
     background: rgba(0, 0, 0, 0.2) !important;
+  }
+  .resume-left {
+    width: 33.333%;
+  }
+  .resume-right {
+    width: 66.667%;
+  }
+}
+@media (max-width: 959px) {
+  .resume-right {
+    margin-left: 30px;
   }
 }
 #root {
@@ -12496,6 +12512,11 @@ iframe.uk-cover {
 }
 .resume-info-block p {
   margin-top: 5px;
+}
+@media print {
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 html {
   font-family: "Fira Code", monospace;
